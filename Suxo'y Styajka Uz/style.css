@@ -1,0 +1,783 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+
+}
+
+.container_box {
+    min-height: auto;
+    height: 100vh;
+}
+
+.all {
+    width: 100%;
+    height: 950px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(image/к434.jpeg);
+}
+
+.header_item {
+    height: 80px;
+    /* border-bottom: 2px solid green; */
+    position: sticky;
+    background-color: white;
+    top: 0.1px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* width: 1440px; */
+    margin: 0 auto;
+
+
+
+}
+
+.two_itemass ul li {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.two_itemass li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 650;
+    font-family: 'Rubik', sans-serif;
+    color: rgb(1, 31, 201);
+}
+
+.nbutton button {
+    background-color: rgb(0, 94, 233);
+    border: none;
+    font-weight: 450;
+    color: white;
+    padding: 10px 40px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+main {
+    height: 900px;
+    display: flex;
+    justify-content: center;
+}
+
+.main_container {
+    width: 1500px;
+    height: 700px;
+}
+
+.center_box {
+    margin-top: 150px;
+}
+
+.center_box h1 {
+    margin-top: 80px;
+    line-height: 75.4px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 58px;
+}
+
+.center_box p {
+    line-height: 100.5px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.center_box button {
+    background-color: rgb(0, 103, 255);
+    border: none;
+    border-radius: 5px;
+    padding: 16px 32px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 45px;
+}
+
+.center_box a button i {
+    position: relative;
+    left: -10px;
+
+}
+
+nav {
+    height: 1000px;
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_content1 {
+    /* border: 2px solid green; */
+    position: relative;
+    left: -50px;
+    /* bottom: 30px; */
+    top: 50px;
+}
+
+.box_content2 {
+    width: 700px;
+    height: 900px;
+    /* border: 2px solid grey ; */
+    /* margin-left: 30px; */
+
+}
+
+.box_content2 h3 {
+    line-height: 40px;
+    color: rgb(0, 103, 255);
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.box_content2 h1 {
+    font-family: sans-serif;
+    font-size: 52px;
+    margin-top: 50px;
+}
+
+.iop_item {
+    margin-top: 50px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.iop_item2 {
+    margin-top: 130px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.box_content2 button {
+    background-color: rgb(0, 103, 255);
+    border: none;
+    border-radius: 5px;
+    padding: 16px 32px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 145px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.section_item {
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.section_item h3 {
+    padding-top: 40px;
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(0, 103, 255);
+    font-family: Rubik, sans-serif;
+}
+
+.section_item h1 {
+    margin-top: 20px;
+    font-size: 45px;
+    text-align: center;
+    color: rgb(0, 103, 255);
+    font-family: Rubik, sans-serif;
+}
+
+.olas {
+    padding-bottom: 80px;
+    margin-top: 30px;
+    width: 1500px;
+}
+
+.acc_box1 {
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 600px;
+}
+
+.acc_box1 h2 {
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+}
+
+.acc_box1 p {
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    margin-top: 30px;
+    line-height: 30px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.iopas {
+    width: 1260px;
+    display: flex;
+    margin-top: 150px;
+}
+
+.styashka {
+    text-align: left !important;
+
+}
+
+.itemsaf {
+    padding-top: 30px;
+    color: #ffffffe9;
+    font-weight: 500;
+    line-height: 35px;
+    list-style-type: none;
+
+
+}
+
+.itemsaf li::before {
+
+    content: "•";
+    font-size: 60px;
+    vertical-align: middle;
+    line-height: 20px;
+    margin-right: 10px;
+}
+
+.itemsaf li:hover {
+    color: rgb(14, 137, 135);
+    transition: 0.7s;
+    display: inline-block;
+}
+
+.buttton {
+    margin-top: 40px;
+    padding: 17px 140px;
+    background-color: rgb(0, 103, 255);
+    border: none;
+    border-radius: 5px;
+}
+
+.ando2 img {
+    transform: translateY(0px);
+    transition: 1s;
+}
+
+.ando2 img:hover {
+    transform: translateY(10px);
+    transition: 1s;
+}
+
+.abouty {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.containersd {
+    text-align: center;
+    max-width: 1200px;
+}
+
+h2 {
+    color: #0072c6;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    padding: 50px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.icon {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #0072c6;
+}
+
+h4 {
+    font-size: 20px;
+    color: #0072c6;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+}
+
+
+.containerer {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    color: #1d1d1d;
+    /* margin-bottom: 10px; */
+}
+
+.faqew {
+    height: 700px;
+    background-color: #E7F6FF;
+    padding-top: 50px;
+}
+
+.containerer p {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.testimonial-cards {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    gap: 20px;
+}
+
+.cardd {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+}
+
+.cardd img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 15px;
+}
+
+.cardd h3 {
+    font-size: 1.3em;
+    color: #333;
+}
+
+.cardd span {
+    display: block;
+    font-size: 0.9em;
+    color: #0072c6;
+    margin-bottom: 10px;
+}
+
+.stars {
+    color: #ffc107;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.cardd p {
+    color: #666;
+    font-size: 0.95em;
+    line-height: 1.6;
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+    .testimonial-cards {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .cardd {
+        width: 100%;
+    }
+}
+
+/* Footer umumiy uslubi */
+footer {
+    background-color: #0c1324;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    padding: 40px 10%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin-right: 20px;
+    text-align: left;
+    /* Matnni chapga joylashtirish */
+}
+
+.footer-section:last-child {
+    margin-right: 0;
+}
+
+.footer-section h3 {
+    color: #007bff;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.footer-section p,
+.footer-section ul {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 18px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #333;
+    padding-top: 10px;
+}
+
+.footer-bottom p {
+    margin: 5px 0;
+    font-size: 12px;
+    color: #999;
+}
+
+.footer-bottom p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer-bottom p a:hover {
+    text-decoration: underline;
+}
+
+/* Responsiv dizayn uchun */
+@media screen and (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: flex-start;
+        /* Chap tomonga joylashtirish */
+    }
+
+    .footer-section {
+        margin-bottom: 20px;
+        margin-right: 0;
+        text-align: left;
+        /* Matnni chapga yo‘naltirish */
+    }
+
+    .social-icons a {
+        margin-right: 10px;
+        /* Ikonkalar orasidagi bo‘shliqni saqlash */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    footer {
+        padding: 20px 5%;
+    }
+
+    .footer-section h3 {
+        font-size: 16px;
+    }
+
+    .footer-section p,
+    .footer-section ul {
+        font-size: 12px;
+    }
+
+    .footer-bottom p {
+        font-size: 10px;
+    }
+}
+
+.companyabouts {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #334056;
+    color: #fff;
+}
+
+.services-section {
+    padding: 50px 10%;
+    text-align: center;
+}
+
+.services-section h2 {
+    color: #007bff;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.services-section h3 {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service-box {
+    background-color: #3b4a63;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 38%;
+    margin-bottom: 20px;
+}
+
+.service-box img {
+    width: 100%;
+    height: auto;
+}
+
+.service-box .content {
+    padding: 20px;
+}
+
+.service-box h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.service-box p {
+    color: white;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+
+
+
+/* Responsiv dizayn */
+@media screen and (max-width: 768px) {
+    .services-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+
+    .service-box {
+        width: 100%;
+   
+    }
+   
+}
+
+
+
+.about-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 10%;
+}
+
+.images-container {
+    flex: 1;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.images-container img {
+    width: 100%;
+    border-radius: 8px;
+    /* border: 1px solid #e0e0e0; */
+}
+
+.text-container {
+    flex: 1;
+    max-width: 50%;
+    padding: 20px;
+
+}
+
+
+
+.text-container h2 {
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.text-container h3 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.text-container p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.text-container a {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.text-container a:hover {
+    background-color: #0056b3;
+}
+
+/* Responsiv dizayn */
+@media screen and (max-width: 768px) {
+    .about-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .images-container,
+    .text-container {
+        max-width: 100%;
+    }
+}
+/* Umumiy Responsivlik */
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Asosiy kontent kengliklarini moslash */
+.container_box {
+    width: 100%;
+}
+
+.header_item {
+    flex-wrap: wrap;
+}
+
+.header_item .two_itemass ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+}
+
+.header_item .two_itemass li {
+    padding: 10px;
+}
+/* /side menu  */
+#menuToggle {
+    display: none;
+    font-size: 24px;
+    color: #000000;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.iod{
+    display: flex;
+    align-items: center;
+}
+
+.side-menu {
+    width: 250px;
+    height: 100vh;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    right: -250px; /* O'ng tomondan yashirilgan */
+    transition: right 0.3s;
+    padding-top: 20px;
+    z-index: 1;
+}
+
+.side-menu.active {
+    right: 0; /* O'ng tomondan chiqadi */
+}
+
+.side-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.side-menu ul li {
+    padding: 15px 20px;
+}
+
+.side-menu ul li a, .side-menu .iop button {
+    color: #fff;
+    text-decoration: none;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ExpressPol</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      padding: 20px;
+    }
+
+    .section {
+      display: flex;
+      flex-wrap: wrap;
+      background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+      border-radius: 10px;
+      padding: 20px;
+      margin: 20px auto;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      max-width: 1200px;
+      align-items: center;
+    }
+
+    .images {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .images img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .content {
+      flex: 1.5;
+      padding: 20px;
+    }
+
+    .content h2 {
+      color: #00296b;
+      font-size: 28px;
+      margin-bottom: 15px;
+    }
+
+    .content p {
+      font-size: 16px;
+      color: #333;
+      line-height: 1.8;
+      margin-bottom: 20px;
+    }
+
+    .content button {
+      background-color: #0056ff;
+      color: #fff;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .content button:hover {
+      background-color: #0041cc;
+    }
+
+    @media (max-width: 768px) {
+      .section {
+        flex-direction: column;
+      }
+
+      .images img {
+        width: 100%;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .content h2 {
+        font-size: 22px;
+      }
+
+      .content p {
+        font-size: 14px;
+      }
+
+      .content button {
+        font-size: 14px;
+        padding: 10px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="section">
+    <!-- Rasmlar bloki -->
+    <div class="images">
+      <img src="image1.png" alt="Building Image">
+      <img src="image2.png" alt="Team Image">
+    </div>
+    
+    <!-- Matn bloki -->
+    <div class="content">
+      <h2>Полусухая стяжка пола в Ташкенте – ExpressPol</h2>
+      <p>Мы предлагаем профессиональные услуги по полусухой стяжке пола (теплый пол), крыши и других объектов. Наша компания является опытным и надежным партнером в двух направлениях: полусухая стяжка пола и виброукладка плитки, обеспечивая качественное исполнение работ и удовлетворение потребностей наших клиентов.</p>
+      <p>Накопленный опыт, современные технологии и оборудование, а так же профессиональные материалы позволяют гарантировать стабильно высокий уровень качества выполнения работ.</p>
+      <button>УЗНАТЬ ЦЕНЫ</button>
+    </div>
+  </div>
+</body>
+</html>
