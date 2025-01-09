@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aMaktab| eMaktab ga kirish</title>
+    <link rel="icon" href="images/icon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="bigDiv">
+        <header>
+            <!-- Bosh qisim-->
+            <div class="allheader">
+                <div class="rasmlogo">
+                    <img src="images/uzlogotype.png" alt="">
+                </div>
+                <div class="listlar">
+                    <li><a href="https://emaktab.uz/about" target="_blank">Tashkilot |</a></li>
+                    <li><a href="https://emaktab.uz/features#/teachers">Imkoniyatlar |</a></li>
+                    <li><a href="https://emaktab.uz/forpartners">Hamkorlarga</a></li>
+                    <li><a href="https://help.emaktab.uz/hc/uz">Yordam</a></li>
+                </div>
+                <div class="selected">
+                    <select>
+                        <option value="uz">O'zb</option>
+                        <option value="ru">Rus</option>
+                    </select>
+                    <a href="#"><button class="btn1">Kirish</button></a>
+                    <a href="#"><button class="btn2">Tashkilotni Ulash</button></a>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <!--Mani qisim-->
+            <div class="main_col">
+                <div class="mainHeader">
+                    <h1>Kirish eMaktab</h1>
+                    <a href="https://emaktab.uz/ad/promo/oo-uz" target="_blank">Tizimda ro‘yxatdan o‘tmaganmisiz?</a>
+
+                </div>
+                <div class="main_form">
+                    <form action="/php.server">
+                        <label for="login">Login</label> <br>
+                        <input type="login" id="login" required>
+                        <br> <br>
+                        <label for="parol">Parol</label> <br>
+                        <input type="password" id="parol" required> <br>
+                       <a href="#"> <button>Tizimga Kiring</button></a>
+                    </form>
+
+                </div>
+                <div class="main_footer">
+                    <i class="fa-solid fa-question"></i>
+                    <p>Login yoki parolni unutdingizmi? <a href="https://login.emaktab.uz/recovery" target="_blank">Loginni tiklash.</a></p>
+                    
+                </div>
+            </div>
+        </main>
+    </div>
+
+</body>
+
+</html>
