@@ -1,0 +1,108 @@
+
+
+
+@media screen and (max-width:400px) {
+    .icons {
+        /* display: none; */
+        display: flex;
+        align-items: center;
+    }
+
+    .box1 {
+        display: flex;
+        justify-content: space-between;
+        width: 100% !important;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .container {
+        border: 3px solid red;
+    }
+
+    .box2 {
+        border: 3px solid green;
+        margin-top: 320px;
+        display:block;
+        width: 100%;
+
+    }
+    .box2-mini1{
+        width: 100%;
+        text-align: center;
+    }
+    .box2-mini1 p{
+        width: 100%;
+     
+    }
+    .box2-mini2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 140px;
+        width: 100%;
+    }
+    .box2-mini2 img{
+        width: 250px;
+    }
+    #flk{
+        width: 100%;
+        margin: 0;
+        border: 3px solid pink;
+    }
+
+    .box3{
+        border: 3px solid red;
+    }
+    .minibox1, .minibox2{
+        border: 2px solid rgb(0, 123, 255);
+        width:320px;
+        margin: 10px 40px;
+    }
+    #fra, #kf{
+        border: 2px solid rgb(0, 123, 255);
+        margin: 10px 40px;
+    }
+    #jva{
+        border: 4px solid green;
+        margin:20px 40px;
+        font-size: 20px;
+    }
+    .box4{
+        border: 3px solid coral;
+    }
+    #jlm,#jlq{
+        width: 100%;
+        margin: 0;
+    }
+    .box4-mini{
+        border: 3px soldi pink;
+    }
+    .box4-mini,.abox,.mbox{
+        display: block;
+        margin: 20px 40px;
+    }
+    .mbox p{
+        color: red;
+    }
+    .mbox2{
+        margin-top: 50px;
+    }
+    #dk{
+        margin: 0;
+    }
+    #azza{
+        border: 3px solid red;
+        margin: 0;
+    }
+    .box5{
+        display: block;
+        width: 100%;
+    }
+    #qaz{
+        margin: 0;
+        width: 200px;
+    }
+
+}
