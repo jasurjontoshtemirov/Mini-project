@@ -1,36 +1,18 @@
 window.addEventListener('DOMContentLoaded', function () {
-
-    let product = document.querySelectorAll('.card'),
-        ProductButton = document.querySelectorAll('.btn'),
-        OpenButton = document.querySelectorAll('.open');
-
-    function createCart() {
-        let card = document.createElement('div'),
-            field = document.createElement('div'),
-            heading = document.createElement('h2'),
-            close = document.createElement('button');
-            card.classList.add(`card`);
-            field.classList.add(`field`);
-            close.classList.add(`close`);
-            heading.textContent="Sizning mahsulotlaringiz";
-            close.textContent="Close";
-            document.body.appendChild(card);
-            card.appendChild(heading);
-            card.appendChild(field);
-            card.appendChild(close)
+    let open = this.document.querySelector('.open'),
+     modal = this.document.querySelector('.Modal-container'),
+     cancelModal=this.document.querySelector('#btn-cancel'),
+     shopButton=this.document.querySelectorAll('.adds');
+     console.log(shopButton);
+     
 
 
-    }
-
-    createCart()
-
-    
-    OpenButton.addEventListener('click', function () {
-        card.style.display = 'block';
+    open.addEventListener('click', () => {
+        modal.classList.toggle('suctesOff')
     });
-
-
-
+    cancelModal.addEventListener('click',()=>{
+        modal.classList.add('suctesOff')
+    });
 
 
 });
