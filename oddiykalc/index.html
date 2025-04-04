@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulyator</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            height: 100vh ;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            width: 350px;
+            height: 450px;
+            padding: 30px;
+            padding-top: 70px;
+            border: 2px solid #333;
+            border-radius: 10px;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+        }
+        input, select, button {
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Kalkulyator</h2>
+        <input type="number" id="son1" placeholder="Birinchi son">
+        <select id="amal">
+            <option value="+">Qo'shish (+)</option>
+            <option value="-">Ayirish (-)</option>
+            <option value="*">Ko'paytirish (*)</option>
+            <option value="/">Bo'lish (/)</option>
+        </select>
+        <input type="number" id="son2" placeholder="Ikkinchi son">
+        <button onclick="hisobla()">Hisoblash</button>
+        <h3>Natija: <span id="natija"></span></h3>
+    </div>
+
+    <script>
+        function hisobla() {
+            let son1 = document.getElementById("son1").value;
+            let amal = document.getElementById("amal").value;
+            let son2 = document.getElementById("son2").value;
+            let natija;
+
+            if (isNaN(son1) || isNaN(son2)) {
+                natija = "Iltimos, son kiriting!";
+            } else {
+                switch (amal) {
+                    case "+":
+                        natija = son1 + son2;
+                        break;
+                    case "-":
+                        natija = son1 - son2;
+                        break;
+                    case "*":
+                        natija = son1 * son2;
+                        break;
+                    case "/":
+                        natija = son2 !== 0 ? son1 / son2 : "0 ga bo'lish mumkin emas!";
+                        break;
+                    default:
+                        natija = "Noto'g'ri amal!";
+                }
+            }
+
+            document.getElementById("natija").textContent = natija;
+        }
+    </script>
+</body>
+</html>
