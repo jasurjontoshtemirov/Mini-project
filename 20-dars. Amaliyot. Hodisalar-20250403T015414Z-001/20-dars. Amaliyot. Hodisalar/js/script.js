@@ -15,45 +15,17 @@ document.addEventListener('DOMContentLoaded', () => {
 			'Magnificent Century',
 			'The Great Seljuks: Guardians...',
 		],
-	}
-
-	addForm.addEventListener('submit', event => {
-		event.preventDefault()
-
-		let newValue = input.value
-		const favourite = checkbox.checked
-
-		if (newValue) {
-			if (newValue.length > 18) {
-				newValue = `${newValue.slice(0, 18)}...`
-			}
-
-			if (favourite) {
-				console.log('Sevimli serial qo’shilidi')
-			}
-
-			seriesDB.series.push(newValue)
-			sort()
-			setList()
-			event.target.reset()
-		}
-	})
+	}	
 
 	advs.forEach(item => {
 		item.remove()
 	})
 
 	genre.textContent = 'Comedy'
+	seriesList.innerHTML = ''
 
-	wrapper.style.backgroundImage = 'url(./img/1.jpg)'
 
-	function sort() {
-		seriesDB.series.sort()
-	}
-
-	function setList() {
-		seriesList.innerHTML = ''
-		sort()
+	wrapper.style.backgroundImage = 'url(./img/1.jpg)';
 
 		seriesDB.series.forEach((item, index) => {
 			seriesList.innerHTML += `
@@ -62,17 +34,8 @@ document.addEventListener('DOMContentLoaded', () => {
 					<div class="delete"></div>
 				</li>
 			`
-		})
+		});
 
-		document.querySelectorAll('.delete').forEach((trashBtn, index) => {
-			trashBtn.addEventListener('click', () => {
-				trashBtn.parentElement.remove()
-				seriesDB.series.splice(index, 1)
-				setList()
-			})
-		})
-	}
+		
+	});
 
-	sort()
-	setList()
-})
