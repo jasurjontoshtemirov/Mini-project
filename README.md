@@ -1,0 +1,1 @@
+Bu  loyiha o'zim uchun
