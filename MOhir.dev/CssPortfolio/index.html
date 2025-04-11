@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY Portfolio</title>
+    <link rel="icon"
+        href="https://images.freeimages.com/365/images/previews/85b/psd-universal-blue-web-user-icon-53242.jpg?h=350"
+        type="image/x-icon">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            margin: auto;
+            overflow: hidden;
+        }
+
+        header {
+            background-color: rgb(16, 182, 16);
+            height: 13vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            font-size: 20px;
+        }
+
+        section {
+            height: 4vh;
+            background-color: #333;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center ;
+        }
+        section  li{
+            list-style-type: none;
+            display: inline-block;
+            font-size: 22px;
+            padding-left: 20px;
+        }
+        main{
+            height: 74vh;
+            padding:30px;
+            background-color: #FFF;
+        }
+        .about p{
+            line-height: 60px;
+        }
+        .projects ul{
+            padding:15px 40px;
+        }
+        .contact h2{
+            line-height:50px;
+
+        }
+        form label{
+            line-height:30px;
+        }
+        form input{
+            width: 100%;
+        }
+        form textarea{
+            width: 100%;
+            height: 40px;
+        }
+        form button{
+            width: 100%;
+            cursor: pointer;
+        }
+        footer {
+            height: 9vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #333;
+            color: #fff;
+            padding: 30px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Websayt ning header qismi -->
+        <header>
+            <h1>Welcome to My Personal Webpage</h1>
+        </header>
+
+        <!-- Websaytning section qismi yani linklar navbarlar -->
+        <section>
+            <ul>
+                <li>About Me</li>
+                <li>Projects</li>
+                <li>Contact</li>
+            </ul>
+        </section>
+        <!-- main qisim o'rta qisim bu websaytning asosiy qismi -->
+        <main>
+            <div class="about">
+                <h2>About Me</h2>
+                <p>Hello! I am a web developer with a passion for creating beautiful and functional websites.</p>
+            </div>
+            <div class="projects">
+                <h2>Projects</h2>
+                <ul>
+                    <li>Project 1: <a href="#">Link to project</a></li>
+                    <li>Project 2: <a href="#">Link to project</a></li>
+                </ul>
+            </div>
+
+            <div class="contact">
+                <h2>Contact</h2>
+                <form>
+                    <label for="ism">Name:</label> <br>
+                    <input type="text" id="ism"> <br> <br>
+
+                    <label for="email">Email:</label> <br>
+                    <input type="text" id="email">
+                    <br>
+                    <br>
+                    <label for="message">Message :</label> <br>
+                    <textarea id="message" rows="4" cols="50"></textarea> <br> <br>
+                    <button>Submit</button>
+                </form>
+            </div>
+
+        </main>
+
+        <!-- footer qismi yani websaytning pastki qismi -->
+        <footer>
+            <p>&copy; 2025 My Personal Webpage </p>
+    </div>
+
+</body>
+
+</html>
