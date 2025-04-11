@@ -1,0 +1,33 @@
+[
+    {
+        "name":"Diyorjon",
+        "firstname":"Toshtemirov",
+        "age":"21",
+        "city":"Tashkent"
+    },
+    {
+        "name":"Golibjon",
+        "firstname":"Toshtemirov",
+        "age":"23",
+        "city":"Jizzax"
+    },
+    {
+        "name":"Jasurjon",
+        "firstname":"Toshtemirov",
+        "age":"17",
+        "city":"Jizzax"
+    },
+    {
+        "name":"Farrux",
+        "firstname":"Xolbotayev",
+        "age":"22",
+        "city":"Jizzax"
+    },
+    {
+        "name":"Shoxrux",
+        "firstname":"Xolbotayev",
+        "age":"19",
+        "city":"Jizzax"
+    }
+
+]
